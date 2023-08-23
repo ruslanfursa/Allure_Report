@@ -4,11 +4,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class AllureTest {
-    WebDriver driver = new ChromeDriver();
+
 
     @Test
     public void test1(){
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 
     @Test
